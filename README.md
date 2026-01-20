@@ -26,44 +26,50 @@ Delete employee records
 Simple and user-friendly interface
 ```
 
+
 🛠️ Project Setup & Installation
 
-```Clone the repository:
-git clone https://github.com/your-username/employee-management-system.git
+
+```Step 1: Clone the Project
+git clone https://github.com/Ankit161409/Employee-Management-System.git
 ```
 
+```Step 2: Open Eclipse IDE (Version 25-12)
 
-Import project in Eclipse:
-Open Eclipse → File → Import → Existing Projects into Workspace → Select project folder
+Go to File → Import → Existing Projects into Workspace
+Select the project folder you just cloned
+Click Finish
+```
 
+```Step 3: Add JARs to Classpath
 
-
-Add JARs to classpath:
 All required libraries are in the lib/ folder
-Right-click project → Build Path → Configure Build Path → Add JARs → Select all from lib
 
-
-
-Configure MySQL database:
-Create a database (e.g., employee_db)
-
-
-
-```Update database connection in your Servlet code:
-String url = "jdbc:mysql://localhost:3306/yourdbName";
-String username = "root";
-String password = "your_password";
+In Eclipse:
+Right-click the project → Build Path → Configure Build Path
+Go to Libraries → Add JARs
+Select all JARs inside lib folder → Click Apply and Close
 ```
 
-Run on Tomcat:
-Right-click project → Run As → Run on Server → Select Tomcat 10.1.50
+```Step 4: Configure Tomcat Server 10.1.50
+Go to Window → Preferences → Server → Runtime Environments
+Click Add → Apache → Tomcat v10.1
+Browse and select your Tomcat 10.1.50 installation folder → Click Finish
+```
 
+```Step 5: Run Project on Tomcat
 
-Access the application:
+Right-click your project → Run As → Run on Server
+Select Tomcat 10.1.50 → Click Finish
+```
+
+```Step 6: Access Application
+Open your browser and go to:
 http://localhost:8080/EmployeeManagementSystem/
+```
 
+✅ The application is now up and running locally.
  
-
 ```📌 Notes
 Ensure MySQL is running before starting the application.
 Update database credentials in the source code as per your local setup.
