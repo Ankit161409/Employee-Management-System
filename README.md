@@ -30,19 +30,22 @@ Simple and user-friendly interface
 🛠️ Project Setup & Installation
 
 
-```Step 1: Clone the Project
+Step 1: Clone the Project
+```
 git clone https://github.com/Ankit161409/Employee-Management-System.git
 ```
 
-```Step 2: Open Eclipse IDE (Version 25-12)
+Step 2: Open Eclipse IDE (Version 25-12)
 
+```
 Go to File → Import → Existing Projects into Workspace
 Select the project folder you just cloned
 Click Finish
 ```
 
-```Step 3: Add JARs to Classpath
+Step 3: Add JARs to Classpath
 
+```
 All required libraries are in the lib/ folder
 
 In Eclipse:
@@ -51,32 +54,41 @@ Go to Libraries → Add JARs
 Select all JARs inside lib folder → Click Apply and Close
 ```
 
-```Step 4: Configure Tomcat Server 10.1.50
+Step 4: Configure Tomcat Server 10.1.50
+
+```
 Go to Window → Preferences → Server → Runtime Environments
 Click Add → Apache → Tomcat v10.1
 Browse and select your Tomcat 10.1.50 installation folder → Click Finish
 ```
 
-```Step 5: Run Project on Tomcat
+Step 5: Run Project on Tomcat
 
+```
 Right-click your project → Run As → Run on Server
 Select Tomcat 10.1.50 → Click Finish
 ```
 
-```Step 6: Access Application
+Step 6: Access Application
+
+```
 Open your browser and go to:
 http://localhost:8080/EmployeeManagementSystem/
 ```
 
 ✅ The application is now up and running locally.
  
-```📌 Notes
+📌 Notes
+
+```
 Ensure MySQL is running before starting the application.
 Update database credentials in the source code as per your local setup.
 Compatible with Eclipse IDE 25-12 and Java 21.
 ```
 
-```🚀 Future Enhancements
+🚀 Future Enhancements
+
+```
 Add user authentication for admin access
 Implement search and filter for employee records
 Add REST API integration for external systems
