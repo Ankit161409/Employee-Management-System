@@ -1,14 +1,15 @@
-Employee Management System
+#Employee Management System
 
 A web-based application to manage employee information, built using Java technologies.
+---
 
-📝 Project Description
+##📝 Project Description
 
 The Employee Management System allows users to perform CRUD operations (Create, Read, Update, Delete) on employee data. It provides a simple and intuitive interface to add, view, edit, and delete employee records.
 This project is ideal for understanding J2EE fundamentals, servlets, JSP, and database connectivity using JDBC.
 
 
-💻 Technologies Used
+##💻 Technologies Used
 
 ```
 Java – Version 21
