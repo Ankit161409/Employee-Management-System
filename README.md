@@ -8,7 +8,9 @@ The Employee Management System allows users to perform CRUD operations (Create, 
 This project is ideal for understanding J2EE fundamentals, servlets, JSP, and database connectivity using JDBC.
 
 
-```💻 Technologies Used
+💻 Technologies Used
+
+```
 Java – Version 21
 JDBC – For database connectivity
 Servlets & JSP – For backend and frontend integration
@@ -18,7 +20,9 @@ Eclipse IDE – Version 25-12 for development
 Classpath JARs – Located inside the lib/ folder
 ```
 
-```⚙️ Features
+⚙️ Features
+
+```
 Add new employee records
 View employee list
 Update employee information
