@@ -9,6 +9,7 @@ The Employee Management System allows users to perform CRUD operations (Create, 
 This project is ideal for understanding J2EE fundamentals, servlets, JSP, and database connectivity using JDBC.
 
 ---
+
 💻 Technologies Used
 ```
 Java – Version 21
